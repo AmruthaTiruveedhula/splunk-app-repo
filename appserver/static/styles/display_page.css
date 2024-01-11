@@ -1,0 +1,40 @@
+/* Apply styles to the main container */
+#main_container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the heading */
+h3 {
+    color: #333;
+}
+
+/* Style clickable buttons */
+.clickable_button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.clickable_button:hover {
+    background-color: #45a049;
+}
+
+/* Style the display entities container */
+#displayEntities {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

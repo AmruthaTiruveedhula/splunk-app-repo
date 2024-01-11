@@ -1,0 +1,42 @@
+/* Apply styles to the main container */
+#main_container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the heading */
+h3 {
+    color: #333;
+}
+
+/* Style the text input and button */
+.text {
+    margin-bottom: 15px;
+}
+
+#search_input {
+    padding: 5px;
+    width: 80%;
+}
+
+#search {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the search results container */
+#searchResults {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
