@@ -1,0 +1,39 @@
+[app/ui]
+version = 9.1.2
+modtime = 1704740406.461520400
+
+[app/launcher]
+version = 9.1.2
+modtime = 1704740406.466608300
+
+[transforms/dummy]
+access = read : [ * ], write : [ * ]
+export = system
+owner = amrutha
+version = 9.1.2
+modtime = 1704307009.507479200
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%5Cetc%5Capps%5Chello-world%5Cbin%5Cpublish_aggregated_data.py]
+owner = amrutha
+version = 9.1.2
+modtime = 1704166819.816034500
+
+[views/_home]
+owner = amrutha
+version = 9.1.2
+modtime = 1704110502.936305900
+
+[views/home]
+version = 9.1.2
+modtime = 1704112088.730325300
+
+[views/Search_Data]
+access = read : [ * ], write : [ * ]
+export = none
+owner = nobody
+version = 9.1.2
+modtime = 1704171132.338680000
+
+[app/package/check_for_updates]
+version = 9.1.2
+modtime = 1704740406.473480500
