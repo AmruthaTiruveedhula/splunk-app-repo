@@ -1,0 +1,31 @@
+<dashboard isDashboard='false'
+           script='javascript/display_page.js'
+           stylesheet='styles/display_page.css'
+           hideTitle='true'
+           version='1.1'>
+    <!-- First Row: Buttons for Viewing Knowledge Objects -->
+    <row>
+        <panel>
+            <html>
+                <!-- Main container with buttons to view different knowledge objects -->
+                <div id='main_container'>
+                    <h3> Display Knowledge Objects</h3>
+                    <button id='dashboards' class='clickable_button'> View Dashboards</button>
+                    <button id='savedsearches' class='clickable_button'>View Saved Searches</button>
+                    <button id='apps' class='clickable_button'>View Apps</button>
+                    <button id='fields' class='clickable_button'>View Fields</button>
+                </div>
+            </html>
+        </panel>
+    </row>
+
+    <!-- Second Row: Display Area for Knowledge Objects -->
+    <row>
+        <panel>
+            <html>
+                <!-- Container to display knowledge objects fetched from the server -->
+                <div id='displayEntities'></div>
+            </html>
+        </panel>
+    </row>
+</dashboard>

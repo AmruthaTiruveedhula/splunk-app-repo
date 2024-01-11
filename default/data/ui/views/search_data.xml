@@ -1,0 +1,40 @@
+<dashboard isDashboard='false'
+           script='javascript/search_page.js'
+           hideTitle='true'
+           version='1.1'>
+  <!-- First Row: Search Input and Button -->
+  <row>
+    <panel>
+      <html>
+        <!-- Include custom styles from search_page.css -->
+        <link rel="stylesheet" type="text/css" href="search_page.css"/>
+
+        <!-- Main container for the search page -->
+        <div id='main_container'>
+          <h3>Search Page</h3>
+
+          <!-- Input field for entering search text -->
+          <div>
+            <div class='text'>
+              <span>Enter text:</span>
+              <input type='text' id='search_input'></input>
+            </div>
+
+            <!-- Search button -->
+            <button id='search'>Search</button>
+          </div>
+        </div>
+      </html>
+    </panel>
+  </row>
+
+  <!-- Second Row: Display Area for Search Results -->
+  <row>
+    <panel>
+      <html>
+        <!-- Container to display search results fetched from the server -->
+        <div id='searchResults'></div>
+      </html>
+    </panel>
+  </row>
+</dashboard>
